@@ -49,16 +49,16 @@ export default function Home() {
          <Image
                 src="/cat-mini.png"
                 alt=""
-                // className={styles.image}
+                className={styles.myElement}
                 style={{
                   objectFit: "contain",
                   width: "100% !important" ,
                   position: "relative !important",
                   height: "unset !important",
-                  marginTop : "-15%"
+                  // marginTop : "-15%"
                 }}
                 width="1000"
-                height={"200"}
+                height={"100"}
   
               />
           {/* <div className={styles.thirteen}>

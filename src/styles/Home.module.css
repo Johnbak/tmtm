@@ -314,3 +314,30 @@
 }
 
 
+
+@media screen and (min-width: 768px) {
+  .myElement {
+    display: none; /* Set the display property to none when screen width is above 768px */
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .myElement {
+    margin-top: -40%;
+    object-fit: contain;
+    width : 100% !important ;
+    position: relative !important;
+    height: unset !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .myElement {
+    margin-top: -15%;
+    object-fit: contain;
+    width : 100% !important ;
+    position: relative !important;
+    height: unset !important;
+  }
+}
