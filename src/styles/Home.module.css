@@ -334,7 +334,7 @@
 
 @media screen and (max-width: 480px) {
   .myElement {
-    margin-top: -15%;
+    margin-top: -25%;
     object-fit: contain;
     width : 100% !important ;
     position: relative !important;
